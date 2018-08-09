@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Du Học Nhật Bản',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }
