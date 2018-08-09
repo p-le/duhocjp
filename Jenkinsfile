@@ -1,10 +1,9 @@
 pipeline {
-  agent any
+  agent none
   stages {
     stage('Build') {
       steps {
-        sh 'export PATH=/usr/local/bin:$PATH'
-        sh 'npm install'
+        sh '/usr/bin/npm install'
       }
     }
   }
