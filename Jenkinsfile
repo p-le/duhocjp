@@ -1,9 +1,10 @@
 pipeline {
-  agent none
+  agent any
   stages {
     stage('Build') {
       steps {
-        sh '/usr/bin/npm install'
+        sh '''/usr/bin/npm install
+npx gatsby build'''
       }
     }
   }
