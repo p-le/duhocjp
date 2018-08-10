@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Header = ({ siteTitle }) => (
+const Jumbotron = ({ siteTitle }) => (
   <header className="blog-header py-3">
   <div className="row flex-nowrap justify-content-between align-items-center">
     <div className="col-4 pt-1">
@@ -17,4 +17,4 @@ const Header = ({ siteTitle }) => (
 </header>
 )
 
-export default Header
+export default Jumbotron
